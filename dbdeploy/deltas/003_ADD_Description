@@ -1,0 +1,5 @@
+ALTER TABLE Test ADD COLUMN Description VARCHAR(255);
+
+--//@UNDO
+
+ALTER TABLE Test Drop COLUMN Description;
